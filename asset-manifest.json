@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Wheather-React-app/static/css/main.a4546425.css",
+    "main.css": "/Wheather-React-app/static/css/main.642d22cc.css",
     "main.js": "/Wheather-React-app/static/js/main.c928a0c2.js",
     "index.html": "/Wheather-React-app/index.html",
-    "main.a4546425.css.map": "/Wheather-React-app/static/css/main.a4546425.css.map",
+    "main.642d22cc.css.map": "/Wheather-React-app/static/css/main.642d22cc.css.map",
     "main.c928a0c2.js.map": "/Wheather-React-app/static/js/main.c928a0c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4546425.css",
+    "static/css/main.642d22cc.css",
     "static/js/main.c928a0c2.js"
   ]
 }
