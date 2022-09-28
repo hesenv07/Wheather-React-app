@@ -41,7 +41,7 @@ const fetchData = async (e) => {
 
 const defaultDataFetched = async () =>{
   if(!dataFetched){
-    const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=quba&appid=e4c7f23dc992b642d37f091f52004f1c&units=metric`)
+    const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=quba&lang=az&appid=e4c7f23dc992b642d37f091f52004f1c&units=metric`)
     const data = await res.data
   
     setDegrees(data.main.temp)
@@ -57,7 +57,8 @@ const defaultDataFetched = async () =>{
 
 useEffect(() => {
   defaultDataFetched()
-}, [])
+}, []);
+const date = new Date();
 
   return (
     <div className="App">
@@ -90,7 +91,7 @@ useEffect(() => {
 
               <div className='weather_country'>
                 <h3>{country}</h3>
-                <h2 className='weather_date'>{Date()}</h2>
+                <h2 className='weather_date'>{date.toLocaleString()}</h2>
               </div>
             </div>
 
