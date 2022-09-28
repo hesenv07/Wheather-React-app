@@ -30,3 +30,8 @@
     border-left: 1px solid #685858;
     cursor: pointer;
 }
+@media (max-width: 800px) {
+  .input_value{
+    height: 2.5rem;
+  }  
+}
